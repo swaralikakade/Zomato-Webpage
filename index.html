@@ -1,23 +1,85 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
+
 <body>
     <header>
-        <nav class="navbar" >
+        <nav class="navbar">
             <div class="navbar__brand">
                 <img src="https://zomato-landing-page-notes.vercel.app/assets/logo.png" alt="logo" class="navbar__logo">
             </div>
             <div class="navbar__nav__items">
-                <button class="nav__item">Order Food</button>
+                <button class="nav__item button__primary">Order Food</button>
             </div>
         </nav>
     </header>
+    <main class="container">
+        <!--hero section-->
+        <section class="hero__container">
+            <div class="hero__image__container">
+                <img src="assets/pexels-jane-doan-1099680.jpg" alt="hero image" class="hero__image">
+            </div>
+            <div class="hero__description">
+                <h1 class="hero__text">
+                    Order Food From Favourite Restaurants Near You.
+                </h1>
+                <button class="button__primary"> Order Now</button>
+
+            </div>
+        </section>
+<br>
+<br>
+<br>
+        <!--explore menu-->
+        <section class="explore__menu__container">
+            <h1 class="explore__menu__text">Explore Our Menu</h1>
+            <div class="explore__menu__gradient__bg"></div>
+
+            <div class="explore__menu__lists">
+                <!--Donut-->
+                <div class="food__card" id="donut__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/pexels-tijana-drndarski-3338681.jpg" alt="donut" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Donuts</h3>
+                        <p>Mad Over Donuts, Dunkin <span style="color: red;"> +3 </span></p>
+                    </div>
+                </div>
+
+                <!--Pancake-->
+                <div class="food__card" id="pancake__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/pexels-ash-376464.jpg" alt="donut" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Pancakes</h3>
+                        <p> The Waffle Co., Healthy Bites<span style="color: red;"> +3 </span></p>
+                    </div>
+                </div>
+
+                <!--Green Leafy Vegetable Dish-->
+                <div class="food__card" id="veg__card">
+                    <div class="food__card__image__container">
+                        <img src="assets/pexels-valeria-boltneva-842571.jpg" alt="donut" class="food__image">
+                    </div>
+                    <div class="food__card__description">
+                        <h3 class="food__title">Green Leafy Vegetable Dish </h3>
+                        <p>The Green Leaf, Green Premium <span style="color: red;"> +3 </span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
